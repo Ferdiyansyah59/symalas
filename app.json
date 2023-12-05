@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Symalas",
+    "slug": "Symalas",
+    "version": "1.0.0",
+    "description": "This is symalas project",
+    "orientation": "portrait",
+    "icon": "./assets/icon-config.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#5271FF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ferdirns.symalas"
+    },
+    "android": {
+      "package": "com.ferdirns.symalas",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon-config.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/icon-config.png"
+    },
+    "androidStatusBar": {
+      "translucent": false,
+      "backgroundColor": "#FFFFFF"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6ff12fe9-cf7a-4b33-858f-1c38c607fd84"
+      }
+    }
+  }
+}
